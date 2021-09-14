@@ -1,0 +1,252 @@
+body{
+	background-image:;
+	color:#fff;
+	background-attachment:fixed;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+}
+
+.head{
+  width: 100%;
+  height: 100vh;
+}
+
+.login{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  background-color:#005f40;
+  position: fixed;
+  border-bottom: 5px solid white
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-right: 20px;
+  width: 380px;
+}
+
+.button {
+  margin: auto;
+  width: 160px;
+}
+
+.button1 {
+  margin: auto;
+  margin-right: 20px;
+}
+
+.login img{
+  margin-left: 30px;
+}
+
+.button a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size:20px;
+	font-weight:400;
+  padding-left: 10px;
+}
+
+.button1 a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size:20px;
+	font-weight:400;
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+
+.presentation{
+  white:100%;
+  margin: auto;
+  height: 550px;
+  background-image: url("img/plantation.png");
+	background-attachment:fixed;
+}
+
+.presentation h1{
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.presentation h2{
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.tours{
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  padding: 0px;
+  background-color: #005f40;
+  border-bottom: 5px solid white;
+}
+
+.tours h1{
+  margin:auto;
+  margin-left: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.tours p{
+  margin:auto;
+  margin-left: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.tours img{
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.trip{
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  padding: 0px;
+  background-color: #005f40;
+  border-bottom: 5px solid white;
+}
+
+.trip h1{
+  margin:auto;
+  margin-right: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.trip p{
+  margin:auto;
+  margin-right: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.trip img{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.transfer{
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  padding: 0px;
+  background-color: #005f40;
+  border-bottom: 5px solid white;
+}
+
+.transfer h1{
+  margin:auto;
+  margin-left: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.transfer p{
+  margin:auto;
+  margin-left: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.transfer img{
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.hot{
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  padding: 0px;
+  background-color: #005f40;
+  border-bottom: 5px solid white;
+}
+
+.hot h1{
+  margin:auto;
+  margin-right: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.hot p{
+  margin:auto;
+  margin-right: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.hot img{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+footer {
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+  height: 300px;
+	margin:0 auto;
+}
+
+footer p{
+  padding-left: 50px;
+  padding-top: 150px;
+  font-family: "Rubik", sans-serif;
+  color: #005f40;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+footer img{
+  padding-right: 50px;
+}
