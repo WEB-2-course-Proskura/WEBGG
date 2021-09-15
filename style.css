@@ -123,6 +123,7 @@ body{
 .tours img{
   margin-right: 50px;
   margin-top: 50px;
+	border: 5px solid white;
 }
 
 .trip{
@@ -158,6 +159,7 @@ body{
 .trip img{
   margin-left: 50px;
   margin-top: 50px;
+	border: 5px solid white;
 }
 
 .transfer{
@@ -193,6 +195,7 @@ body{
 .transfer img{
   margin-right: 50px;
   margin-top: 50px;
+	border: 5px solid white;
 }
 
 .hot{
@@ -228,6 +231,7 @@ body{
 .hot img{
   margin-left: 50px;
   margin-top: 50px;
+	border: 5px solid white;
 }
 
 footer {
