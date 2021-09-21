@@ -101,26 +101,6 @@ body{
   border-bottom: 5px solid white;
 }
 
-.tours h1{
-  margin:auto;
-  margin-left: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 4em;
-  font-weight: 700;
-  padding-top: 200px;
-  text-align: center;
-}
-
-.tours p{
-  margin:auto;
-  margin-left: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 3em;
-  font-weight: 700;
-  padding-top: 30px;
-  text-align: left;
-}
-
 .tours img{
   margin-right: 50px;
   margin-top: 50px;
@@ -129,7 +109,7 @@ body{
 
 .trip{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 600px;
   width: 100%;
   padding: 0px;
@@ -137,28 +117,7 @@ body{
   border-bottom: 5px solid white;
 }
 
-.trip h1{
-  margin:auto;
-  margin-right: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 4em;
-  font-weight: 700;
-  padding-top: 200px;
-  text-align: center;
-}
-
-.trip p{
-  margin:auto;
-  margin-right: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 3em;
-  font-weight: 700;
-  padding-top: 30px;
-  text-align: left;
-}
-
 .trip img{
-  margin-left: 50px;
   margin-top: 50px;
 	border: 5px solid white;
 }
@@ -173,26 +132,6 @@ body{
   border-bottom: 5px solid white;
 }
 
-.transfer h1{
-  margin:auto;
-  margin-left: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 4em;
-  font-weight: 700;
-  padding-top: 200px;
-  text-align: center;
-}
-
-.transfer p{
-  margin:auto;
-  margin-left: 200px;
-  font-family: "Rubik", sans-serif;
-  font-size: 3em;
-  font-weight: 700;
-  padding-top: 30px;
-  text-align: left;
-}
-
 .transfer img{
   margin-right: 50px;
   margin-top: 50px;
@@ -201,37 +140,34 @@ body{
 
 .hot{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 600px;
   width: 100%;
   padding: 0px;
   background-color: #005f40;
 }
 
-.hot h1{
+.hot img{
+  margin-top: 50px;
+	border: 5px solid white;
+}
+
+.text h1{
   margin:auto;
-  margin-right: 200px;
   font-family: "Rubik", sans-serif;
   font-size: 4em;
   font-weight: 700;
-  padding-top: 200px;
+  padding-top: 180px;
   text-align: center;
 }
 
-.hot p{
+.text p{
   margin:auto;
-  margin-right: 200px;
   font-family: "Rubik", sans-serif;
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 500;
   padding-top: 30px;
-  text-align: left;
-}
-
-.hot img{
-  margin-left: 50px;
-  margin-top: 50px;
-	border: 5px solid white;
+  text-align: center;
 }
 
 footer {
@@ -244,7 +180,7 @@ footer {
 }
 
 footer p{
-  margin-bottom: auto;
+  padding-bottom: 10px;
 	margin-left: auto;
   font-family: "Rubik", sans-serif;
   color: #005f40;
