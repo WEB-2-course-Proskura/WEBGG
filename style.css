@@ -67,7 +67,7 @@ body{
 .presentation{
   white:100%;
   margin: auto;
-  height: 550px;
+  height: 53.6%;
 	background-image: url("img/plantation.png");
 	background-attachment:fixed;
 }
@@ -102,8 +102,8 @@ body{
 }
 
 .tours img{
-  margin-right: 50px;
-  margin-top: 50px;
+  margin-right: 3.6%;
+  margin-top: 3.6%;
 	border: 5px solid white;
 }
 
@@ -118,7 +118,8 @@ body{
 }
 
 .trip img{
-  margin-top: 50px;
+  margin-top: 3.6%;
+	margin-left: 3.6%;
 	border: 5px solid white;
 }
 
@@ -133,8 +134,8 @@ body{
 }
 
 .transfer img{
-  margin-right: 50px;
-  margin-top: 50px;
+  margin-right: 3.6%;
+  margin-top: 3.6%;
 	border: 5px solid white;
 }
 
@@ -148,7 +149,8 @@ body{
 }
 
 .hot img{
-  margin-top: 50px;
+  margin-top: 3.6%;
+	margin-left: 3.6%;
 	border: 5px solid white;
 }
 
