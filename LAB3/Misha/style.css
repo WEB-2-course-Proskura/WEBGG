@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.sellImage {
+    heigth:700px;
+    width:600px;
+    float: left;
+}
+.sellImage img {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+.courseInfo{
+    margin-left: 14%;
+    heigth: 700px;
+    width: auto;
+}
+.courseInfo img{
+    height: 70%;
+    width:43%;
+}
+.similarProducts{
+    width: 1000px;
+}
+.similarProducts div{
+    display:inline-block;
+    width: 24.2%;
+}
+.similarProducts img{
+    width: 93%;
+    height: auto;
+}
+.similarProducts p{
+    display: flex;
+    color: darkgrey;
+    font-size: 14px;
+}
+.hrn p{
+    font-size: 14px;
+    color: black;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+.upper{
+    border-top: 2px solid darkgrey;
+    width: 100%;
+}
+.upper p{
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 24.6%;
+}
+.footer {
+    border-top: 2px solid darkgrey;
+    width: 24.6%;
+    flex-grow: 1;
+    text-align: left;
+    margin-inline: 2% ;
+    color: darkgrey;
+}
+.footer img{
+    height: 80px;
+}
