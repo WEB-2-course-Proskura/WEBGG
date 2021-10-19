@@ -39,13 +39,13 @@ body{
 
 .content{
   margin-top: 0;
-  margin-left: 7px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .text h4{
+  padding-left: 7px;
   text-align: left;
   color: #E5E8EC;
   font-family: Roboto;
@@ -67,7 +67,7 @@ body{
 
 
 .img{
-  width: 45%;
+  width: 44%;
   padding-right: 4%;
   padding-top: 3%;
 }
@@ -164,6 +164,81 @@ body{
 }
 
 .parntner{
-  height: 700px;
-  background-image: url("parntner.png");
+  width: 100%;
+  height: 600px;
+  background-image: url("partner.png");
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo{
+  height: 80%;
+  width: 30%;
+  padding-left: 70px;
+  padding-top: 150px;
+}
+
+.photo img{
+  width: 100%;
+}
+
+.photo p{
+  text-align: center;
+  color: grey;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+.logos{
+  width: 60%;
+}
+
+.logos h1{
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.logos h2{
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #3298F2;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.pics{
+  margin-top: 70px;
+  display: flex;
+}
+
+.pics img{
+  padding-left: 30px;
+}
+
+.footer{
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p{
+  width: 1500px;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  color: white;
+  padding-left: 10px;
+}
+
+.footer img{
+  margin-top: 5px;
+  background-color: white;
+  height: 40px;
+  border-radius: 5px;
 }
