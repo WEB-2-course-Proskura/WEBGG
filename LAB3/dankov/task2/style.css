@@ -1,0 +1,44 @@
+.conten{
+    width: 100%;
+    height: 900px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    width: 75%;
+    height: 8%;
+    background-color: blue;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    width: 75%;
+    height: 84%;
+    flex-direction: row;
+    border: 2px solid black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sider{
+    width: 15%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle{
+    width: 70%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
