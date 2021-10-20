@@ -1,0 +1,167 @@
+.upperMenu{
+    height: 170px;
+    width: 100%;
+    background-color: #eeefef;
+}
+
+.icon{
+    float: left;
+    display: block;
+}
+
+.name{
+    color: #3ca4d5;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: 1em;
+    width: 20%;
+    height: 2%;
+    float: left;
+}
+
+.schedule{
+    color: #41428e;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 14px;
+    display: block;
+    margin-top: 2em;
+    width: 25%;
+    height: 2%;
+    float: right;
+    text-align: right   ;
+}
+
+.buttons{
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    padding-top: 5.5%;
+}
+
+.menuButton{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    background-color: #35a3d7;
+    color: white;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.middleMenu
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    height: 660px;
+    background-color: #eeefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleSubMenu
+{
+    height: 100%;
+    width: 32%;
+}
+
+.middleSubMenu#blueMenu{
+    background-color: #2d9fd4;
+    float: left;
+}
+
+.blueSubMenu{
+    border-bottom: 2px dotted white;
+    line-height: 35pt;
+    padding-top: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-width: thin;
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.middleSubMenu#orangeMenu{
+    background-color: #ffa300;
+}
+
+.middleSubMenu#redMenu{
+    background-color: #cc3233;
+    float: right;
+}
+
+.web{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.img{
+    margin-left: 12.5%;
+    float: left;
+    padding-right: 10px;
+}
+
+.description{
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.orangeMenuContent{
+    height: 90%;
+    width: 90%;
+    padding-top: 8%;
+    padding-left: 10%;
+}
+
+.orangeimg{
+    float: left;
+}
+
+.title{
+    font-size: 28px;
+    float: left;
+    font-family: Arial;
+    font-weight: bold;
+}
+.title::after{
+    content: "\a";
+}
+
+.subtitle{
+    font-size: 20px;
+    width: 88%;
+    float: right;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 4%;
+}
+
+.subtitle::after{
+    content: "\a";
+}
+
+.text{
+    font-size: 16px;
+    float: left;
+    font-family: Arial;
+}
+
+.text::after{
+    content: " ";
+}

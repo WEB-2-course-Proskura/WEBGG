@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header span a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+header span a:hover{
+    color: #000;
+    transition: .2s;
+}
+header span:hover{
+    background-color:rgb(206, 197, 197);
+    transition: .2s;
+}
+header span{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    background-color:#000;
+}
+.content{
+    font-family: Charter;
+    background-color:silver;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.content #title{
+    text-align: center;
+    padding: 10px;
+}
+.content .wrap-card{
+    display: flex;
+    justify-content: space-between;
+}
+.content .wrap-card .card{
+    width: 22%;
+    background-color:#fff;
+    text-align: center;
+    padding: 10px;
+}
+.content .wrap-card .card img{
+    max-width:90%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.card-img {
+    display: flex;
+    justify-content: space-between;
+}
+.card-img .card{
+    width: 30%;
+}
+.card-img .card img{
+    width: 100%;
+}
+.partners{
+    background-color:silver;
+}
+.partners h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.partners .card-partners .card-part{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.partners .card-partners .card-part .text-block{
+    margin-left: 20px;
+}
