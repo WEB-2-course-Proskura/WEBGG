@@ -3,3 +3,6 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/WEB_GG.iml
+/vcs.xml
+/modules.xml
