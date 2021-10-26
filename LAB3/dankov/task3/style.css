@@ -165,3 +165,83 @@
 .text::after{
     content: " ";
 }
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #eeefef;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+
+.butt{
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.butt p{
+    font-family: Arial;
+    font-weight: 600;
+}
+
+.titlee{
+    width: 80%;
+    display: flex;
+}
+
+.titlee img{
+    width: 55px;
+    height: 55px;
+}
+
+.titlee h1{
+    font-family: Arial;
+    margin: 0 0 0 0;
+}
+
+.subt{
+    width: 80%;
+    display: flex;
+}
+
+.subt img{
+    width: 55px;
+    height: 55px;
+}
+
+.subt h2{
+    font-family: Arial;
+}
+
+.orangeMenuContent p{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0 0 0 0;
+}
+
+.middleSubMenu h3{
+    font-family: Arial;
+    font-size: 30px;
+    padding-left: 15px;
+    color: #f2a89e;
+}
+
+.middleSubMenu h4{
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 15px;
+    margin-right: 10px;
+    color: #f2a89e;
+}
+
+.textbox{
+    margin-left: 20px;
+    height: 20px;
+}
