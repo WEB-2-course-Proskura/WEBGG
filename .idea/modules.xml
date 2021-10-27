@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Project-reports/.idea/Project-reports.iml" filepath="$PROJECT_DIR$/../Project-reports/.idea/Project-reports.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WEB_GG.iml" filepath="$PROJECT_DIR$/.idea/WEB_GG.iml" />
     </modules>
   </component>

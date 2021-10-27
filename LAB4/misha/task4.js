@@ -10,7 +10,7 @@ function sort(arr){
         else
             arr4.push(arr[i]);
     }
-    console.log(arr1, arr2.length, arr3.length, arr4.length)
+    //console.log(arr1, arr2.length, arr3.length, arr4.length)
     return arr1.concat(arr2).concat(arr3).concat(arr4);
 }
 function quickSort(arr) {
