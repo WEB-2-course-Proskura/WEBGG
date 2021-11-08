@@ -5,25 +5,16 @@
     <title>Lab5</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
-    <link rel="stylesheet" href="weather-icons.min.css">
     <link href="bootstrap.min.css">
-
-    <script src="yahoo-weather-jquery-plugin.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-    <script>
-        $( function() {
-            $('.container').yahooWeather();
-        })
-    </script>
-    <script>
-        $( function() {
-            $( "#datepicker" ).datepicker();
-        } );
-    </script>
+    <link href="asset/seather.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<p>Date: <input type="text" id="datepicker"></p>
-<p class="container"></p>
+    <p>Date: <input type="text" id="datepicker"></p>
+    <div id="seather"></div>
+    <div id="slider"></div>
+    <div id="sliderInfo"></div>
+    <script src="Scripts/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="Scripts/lab5.js"></script>
 </body>
 </html>
