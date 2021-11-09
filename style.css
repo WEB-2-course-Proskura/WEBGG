@@ -1,5 +1,5 @@
 body{
-	/*background-image: url("img/plant.jpg");*/
+	background-image: url("img/plant.jpg");
 	color:#fff;
 	background-attachment:fixed;
 	margin:0 0 0 0;
@@ -200,5 +200,3 @@ footer p{
 footer img{
   padding-right: 40px;
 }
-
-
