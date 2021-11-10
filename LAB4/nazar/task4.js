@@ -82,6 +82,12 @@ function ToText(arr){
 }
 
 
+
+var arr = new Array();
+arr[arr.length] = 0;
+arr[arr.length] = 1;
+alert(arr.length);
+
 let count = prompt('Введіть к-сть елементів');
 arr = Generator(count);
 alert("Заданий масив: " + arr + "\n" + "Сума елементів між min та max: " + Sum(arr) + '\n' + "Відсортований масив: " + QSort(arr));
