@@ -25,6 +25,9 @@
         <h1>Подорожуйте з нами</h1>
         <h2>Якийсь цікавий слоган</h2>
       </div>
+      <div class="button">
+        <a href="php/bookTour.php">Замовити тур</a>
+      </div>
       <div class="menu">
         <div class="tours">
           <div class="text">
