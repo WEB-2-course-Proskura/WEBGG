@@ -1,76 +1,87 @@
 <?php
 require_once ('DBConnection.php');
-$selectByGenre = "SELECT *
-FROM tour
+require_once ('header.php');
+$countries = "SELECT Id, CountryName FROM country;";
+$countries = mysqli_query($connect, $countries);
+$selectByCountry = "SELECT
+       tour.Id,
+    country.CountryName,
+    tour.Description,
+    TYPE.TypeName,
+    tour.Price
+FROM
+    tour
 JOIN country ON tour.Country = country.Id
-JOIN type on tour.Type = type.Id
-ORDER BY DESC;";
-$selectByChannel = "SELECT `TVProgramm`.`Id`, `channel`.`Name`, `product`.`Name`, `type`.`TypeName`, `tvprogramm`.`Time` FROM `tvprogramm` JOIN `channel` on `ChannelId` = `channel`.`Id` JOIN `product` on `ProductId` = `product`.`Id` JOIN `type` on `product`.`Type` = `type`.`Id` order by `channel`.`Name` desc";
+JOIN TYPE ON tour.Type = TYPE.Id
+ORDER BY CountryName";
+$selectByType = "SELECT
+    tour.Id,
+    country.CountryName,
+    tour.Description,
+    TYPE.TypeName,
+    tour.Price
+FROM
+    tour
+JOIN country ON tour.Country = country.Id
+JOIN TYPE ON tour.Type = TYPE.Id
+ORDER BY TypeName";
 
 $sortBy = $_POST["SortBy"];
-if($sortBy=="Genre"){
-    $tvprogramm = mysqli_query($connect, $selectByGenre);
-    $tvprogramm = mysqli_fetch_all($tvprogramm);
+if($sortBy=="Country"){
+    $tours = mysqli_query($connect, $selectByCountry);
 }
 else{
-    $tvprogramm = mysqli_query($connect, $selectByChannel);
-    $tvprogramm = mysqli_fetch_all($tvprogramm);
+    $tours = mysqli_query($connect, $selectByType);
 }
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Каталажка</title>
-</head>
+
 <body>
 <div class="sort">
     <p>Наявні тури:</p>
 </div>
 <div class="table">
     <div class="container" style="width: 60%">
-        <form action="display.php" method="post">
-            <p>Сортувати по Жанрах/Каналах</p>
+        <form action="bookTour.php" method="post">
+            <p>Сортувати по Країнах/Типу</p>
             <div class="form-check">
-                <input class="form-check-input" type="radio" id="rad1" name="SortBy" value="Genre" onclick="this.form.submit();">
-                <label class="form-check-label" for="Genre">
-                    По жанрах
+                <input class="form-check-input" type="radio" id="rad1" name="SortBy" value="Country" onclick="this.form.submit();">
+                <label class="form-check-label" for="Country">
+                    По країнах
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" id="rad2" name="SortBy" value="Channel" onclick="this.form.submit();">
-                <label class="form-check-label" for="Channel">
-                    По каналах
+                <input class="form-check-input" type="radio" id="rad2" name="SortBy" value="Type" onclick="this.form.submit();">
+                <label class="form-check-label" for="Type">
+                    По типу
                 </label>
             </div>
         </form>
         <table class="table">
             <tr>
-                <th>Id</th>
-                <th>Channel</th>
-                <th>Product</th>
-                <th>Genre</th>
-                <th>Time</th>
+                <th>Country</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Choose!</th>
             </tr>
             <?php
-            foreach ($tvprogramm as $item) {
-                ?>
-                <tr>
-                    <td><?= $item[0]?></td>
-                    <td><?= $item[1]?></td>
-                    <td><?= $item[2]?></td>
-                    <td><?= $item[3]?></td>
-                    <td><?= $item[4]?></td>
-                </tr>
-                <?php
+            while($object = mysqli_fetch_object($tours)) {
+
+                echo"<form action='ConfirmDates.php' method='post'>
+                    <tr>
+                        <td>$object->CountryName</td>
+                        <td>$object->Description</td>
+                        <td>$object->TypeName</td>
+                        <td>$object->Price</td>
+                        <td><button type='submit' class='btn btn-success' name='BuyButton' value='$object->Id'>Купити</button></td>
+                    </tr>
+                </form>";
             }
             ?>
+
         </table>
     </div>
 </div>
-
+<div class="add"><a href="insertDB.php">Додати тури</a></div>
 </body>
 </html>

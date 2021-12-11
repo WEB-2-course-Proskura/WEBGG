@@ -1,3 +1,6 @@
+<?php
+require_once ('php/DBConnection.php');
+?>
 <!DOCTYPE html>
 <html lang="ru" data-lt-installed="true">
   <head>
@@ -15,10 +18,12 @@
         <div class="buttons">
           <div class="button">
             <a href="maket.html">Контактні дані</a>
+              <a href="php/logOut.php">Вийти з акаунту</a>
           </div>
           <div class="button1">
-            <a href="lab3\rybch\index.html">Особистий кабінет</a>
+              <a href="php/signUp.php">Зареєструватися</a>
           </div>
+            <div class="button"><a href="php/logIn.php">Увійти до акаунту</a></div>
         </div>
       </div>
       <div class="presentation">
