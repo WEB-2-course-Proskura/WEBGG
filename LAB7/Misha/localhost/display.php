@@ -33,7 +33,7 @@ else{
     }
 </script>
 
-<div class="container" style="width: 60%">
+<div class="container" id='response' style="width: 60%">
     <h3 style="text-align: center"><?php echo 'Your name is '. $name . ' ' . $surname;?></h3>
     <form action="display.php" method="post">
         <p>Сортувати по Жанрах/Каналах</p>
