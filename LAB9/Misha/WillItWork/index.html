@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="cont"></p>
+  <script type="text/javascript">
+    $.ajax({
+        url: "lastp.php",
+        cache: false,
+        success: function (html){
+            $('#cont').html(html);
+        }
+    })
+  </script>
+</body>
+</html>
