@@ -18,12 +18,16 @@ require_once ('php/DBConnection.php');
         <div class="buttons">
           <div class="button">
             <a href="maket.html">Контактні дані</a>
+          </div>
+          <div class="button">
               <a href="php/logOut.php">Вийти з акаунту</a>
           </div>
-          <div class="button1">
+          <div class="button">
               <a href="php/signUp.php">Зареєструватися</a>
           </div>
-            <div class="button"><a href="php/logIn.php">Увійти до акаунту</a></div>
+          <div class="button">
+            <a href="php/logIn.php">Увійти до акаунту</a>
+          </div>
         </div>
       </div>
       <div class="presentation">
