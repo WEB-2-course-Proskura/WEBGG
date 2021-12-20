@@ -11,9 +11,9 @@ $(document).ready(function() {
             dataType: 'html',
             success: function(result) {
                 switch (result[0]){
-                    case 'F1': $('#kek').css('font-family', 'Algerian');
+                    case 'F1': $('#kek').css('font-family', 'Algerian');break;
                     case 'F2': $('#kek').css('font-family',  "Comic Sans MS"); break;
-                    case 'F3': $('#kek').css('font-family', 'Open Sans');break;
+                    case 'F3': $('#kek').css('font-family', 'Open Sans');
                 }
                 switch (result[1]){
                     case 'img1': $('body').css('background-image', 'url(img/back4.jpg)');break;
