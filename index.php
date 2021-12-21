@@ -9,21 +9,28 @@ require_once ('php/DBConnection.php');
     <script src="Scripts/script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Rubik:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="head">
       <div class="login">
         <img src="img\logo_cut.png" height="110px" width="110px">
+          <div class="button" id="Timer"></div>
         <div class="buttons">
+
           <div class="button">
             <a href="maket.html">Контактні дані</a>
+          </div>
+          <div class="button">
               <a href="php/logOut.php">Вийти з акаунту</a>
           </div>
-          <div class="button1">
+          <div class="button">
               <a href="php/signUp.php">Зареєструватися</a>
           </div>
-            <div class="button"><a href="php/logIn.php">Увійти до акаунту</a></div>
+          <div class="button">
+            <a href="php/logIn.php">Увійти до акаунту</a>
+          </div>
         </div>
       </div>
       <div class="presentation">
@@ -77,4 +84,17 @@ require_once ('php/DBConnection.php');
     </footer>
     </div>
     <script src="Scripts/script.js"></script>
+    <script type="text/javascript">
+       function Show(){
+           $.ajax({
+               url: "php/Time.php",
+               cache: false,
+               success: function (html){
+                   $('#Timer').html(html);
+               }
+           })
+       }
+       setInterval('Show()',1000);
+    </script>
+
   </body>

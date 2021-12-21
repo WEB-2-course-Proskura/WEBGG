@@ -83,5 +83,8 @@ else{
     </div>
 </div>
 <div class="add"><a href="insertDB.php">Додати тури</a></div>
+<script>
+    $.ajax()
+</script>
 </body>
 </html>

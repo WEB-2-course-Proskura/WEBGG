@@ -1,0 +1,19 @@
+h1.font1 {
+    font-family: Algerian;
+}
+
+h1.font2{
+    font-family: "Comic Sans MS";
+}
+
+h1.font3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+label img{
+    width: 60px;
+}
+
+.img{
+    width: 60px;
+}

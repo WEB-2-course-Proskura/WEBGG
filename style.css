@@ -16,7 +16,7 @@ body{
 .login{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 110px;
   background-color:#005f40;
   position: fixed;
@@ -25,15 +25,15 @@ body{
 
 .buttons {
   display: flex;
-  justify-content: space-between;
-  margin: auto;
-  margin-right: 20px;
-  width: 380px;
+  justify-content: space-around;
+	margin-right: 20px;
+	margin-left: 20px;
+  width: 800px;
 }
 
 .button {
-  margin: auto;
-  width: 160px;
+	margin: auto;
+  width: 200px;
 }
 
 .button1 {
