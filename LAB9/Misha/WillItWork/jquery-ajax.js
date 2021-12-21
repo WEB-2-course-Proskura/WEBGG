@@ -1,6 +1,8 @@
 $(document).ready(function() {
     let testForm = $('#testForm');
-    testForm.submit(function() {
+    testForm.on('submit',function(e) {
+        e.preventDefault();
+
         if ($('#username').val().length < 5) {
             alert("Введите не менее 5 символов!");
             $('#username').focus();

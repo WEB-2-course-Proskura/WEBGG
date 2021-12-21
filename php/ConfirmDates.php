@@ -41,7 +41,6 @@ if(isset($data['ConfirmButton']))
 
     }
 }
-print_r($_SESSION);
 $tour = $_POST['BuyButton'];
 $sql = "SELECT
     country.CountryName,
